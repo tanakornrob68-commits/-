@@ -1,0 +1,41 @@
+* {
+    /* margin: 8px 7px 3px 5px; top right bottom left */
+    /* padding: 5px; */
+    /* border: 5em; */
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(45deg, #ee7552,#e73c7e,#23a6d5,#23d5ab);
+    background-size: 400% 400%;
+    height: 100vh;
+    animation: gradient 15s ease infinite; 
+}
+
+@keyframes gradient {
+    0%{
+        background-position: 0% 50%
+    }
+       50%{
+        background-position: 100% 50%
+    }
+       100%{
+        background-position: 0% 50%
+    }
+}
+.container{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: red;
+    margin: 20px 20px 20px 20px;
+}
+.grid{
+    background-color: yellow;
+    margin: 12px 12px 12px 12px;
+}
+.column{
+    background-color: blue;
+    margin: 5px 5px 5px 5px;
+}
+
+.card{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12),;
+}
